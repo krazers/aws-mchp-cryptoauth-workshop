@@ -81,9 +81,9 @@ In this section, you will prepare the device resources for the ECC608A.
          2. For MAC users, click on **MPLAB X IDE->Preferences**. Windows users click on **Tools->Options**.
          3. Click on the tab **Build Tools** under the Embedded section and click on the button **Add...**
             ![6](workshop-images/mplabx_add_toolchain.PNG)
-         4. Click **Browse** and located the extracted toolchain downloaded. Select the **bin** directory and click **Ok**
+         4. Click **Browse** and locate the extracted toolchain downloaded. Select the **bin** directory and click **Ok**
             ![7](workshop-images/mplabx_add_toolchain_save.PNG)
-         5. Proceed back to the **Properties** for the `custom_pki_aws` project and select ARM in the **Compiler Toolchain** section.
+         5. Proceed back to the **Properties** of the `custom_pki_aws` project and select ARM in the **Compiler Toolchain** section.
          6. Click **OK** to save changes.
          
    4. Follow the steps in section 4.2.2.
