@@ -64,16 +64,28 @@ In this section, you will prepare the device resources for the ECC608A.
       Follow these steps to resolve.
 
       1. In the Projects tab, right-click the `custom_pki_aws` project, and select **Properties** which is the last option in the menu.
-      2. Under Categories, click **Conf: [Default]**.  You will see there is an DFP load error under **Packs**.
-
+      
+      3. Under Categories, click **Conf: [Default]**.  You will see there is an DFP load error under **Packs**.
          ![2](workshop-images/mplabx_config_error_2.PNG)
 
-      3. Click the **Resolve** Link. You will receive a pop-up box.  Click **Yes**.
+      4. Click the **Resolve** Link. You will receive a pop-up box.  Click **Yes**.
          ![3](workshop-images/mplabx_config_error_3.PNG)
-      4. You might receive a pop-up box asking you to load the installed pack.  Click **Yes**.
-
+         
+      5. You might receive a pop-up box asking you to load the installed pack.  Click **Yes**.
          ![4](workshop-images/mplabx_config_error_4.PNG)
       
+      2. Under Categories, click **Conf: [Default]**.  You may find that you cannot select ARM in the section **Compiler Toolchain** on the right.
+         ![5](workshop-images/mplabx_config_missing_ARM.PNG)
+         
+         1. If this is the case, first proceed to download the ARM toolchain compiler under the section **Arm GNU Toolchain for 32-bit Devices** located here https://www.microchip.com/mplab/avr-support/avr-and-arm-toolchains-c-compilers
+         2. For MAC users, click on **MPLAB X IDE->Preferences**. Windows users click on **Tools->Options**.
+         3. Click on the tab **Build Tools** under the Embedded section and click on the button **Add...**
+            ![6](workshop-images/mplabx_add_toolchain.PNG)
+         4. Click **Browse** and located the extracted toolchain downloaded. Select the **bin** directory and click **Ok**
+            ![7](workshop-images/mplabx_add_toolchain_save.PNG)
+         5. Proceed back to the **Properties** for the `custom_pki_aws` project and select ARM in the **Compiler Toolchain** section.
+         6. Click **OK** to save changes.
+         
    4. Follow the steps in section 4.2.2.
 
 Congratulations! You have completed Lab 2!
