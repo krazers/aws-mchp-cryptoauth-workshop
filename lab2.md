@@ -8,7 +8,7 @@ If you are running these steps in an unmanaged workshop capacity (in your own ac
 
 In this section, you will prepare the device resources for the ECC608A.
 
-1. Open the document at `trust_platform/DesignTools/Docs/TrustFLEX Guide - AWS custom PKI`. For MAC users, this is located in your home directory.
+1. Open the document at `trust_platform/DesignTools/Docs/TrustFLEX Guide - AWS custom PKI.pdf`. For MAC users, this is located in your home directory.
 2. Connect your kit to your workstation.
    1. Remove the kit from the box.
    2. Connect the USB cable to the computer and then connect the other end of the cable to the kit.
