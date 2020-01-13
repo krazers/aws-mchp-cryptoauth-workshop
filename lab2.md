@@ -41,7 +41,10 @@ In this section, you will prepare the device resources for the ECC608A.
          Otherwise, continue to the next major step.
    2. **OSX**
       1. Open a new terminal window
-      2. Execute the following command (your usbmodem may be different): sudo cu -s 115200 -l /dev/cu.usbmodem141102
+      2. Execute the following command (your usbmodem may be different):
+         ```console
+         sudo cu -s 115200 -l /dev/cu.usbmodem141102
+         ```
       3. If successful, you will see the text "Connected".
 
 2. In the opened document, start with **Section 1**.  Select one of the following based on your operating system.
