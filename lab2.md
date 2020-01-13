@@ -53,7 +53,7 @@ In this section, you will prepare the device resources for the ECC608A.
 
 ## Section 4: Use Case Prototyping
 
-   1. Complete Section 3 in the PDF.
+   1. Follow Section 3 in the PDF.
    2. Follow Section 4.1 in the PDF.
    3. Follow Section 4.2 in the PDF.  Jump to Section 4.2.2 since we are using MPLAB X.
 
