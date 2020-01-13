@@ -8,7 +8,7 @@ If you are running these steps in an unmanaged workshop capacity (in your own ac
 
 In this section, you will prepare the device resources for the ECC608A.
 
-1. Open the document at `trust_platform/DesignTools/Docs/TrustFLEX_guide_custom_PKI_AWS.pdf`.
+1. Open the document at `trust_platform/DesignTools/Docs/TrustFLEX Guide - AWS custom PKI`. For MAC users, this is located in your home directory.
 2. Connect your kit to your workstation.
    1. Remove the kit from the box.
    2. Connect the USB cable to the computer and then connect the other end of the cable to the kit.
@@ -39,16 +39,20 @@ In this section, you will prepare the device resources for the ECC608A.
          you must [Reset the Image to the FACTORY IMAGE](https://microchipdeveloper.com/authentication:cryptoauth-factory-reset). **IMPORTANT** click the **ERASE** button prior to **PROGRAM** for best results.  After program, click the reset button on the device once more to ensure you see the expected results in the serial terminal window.
 
          Otherwise, continue to the next major step.
-   2. **OSX** TBD
+   2. **OSX**
+      1. Open a new terminal window
+      2. Execute the following command (your usbmodem may be differnt): sudo cu -s 115200 -l /dev/cu.usbmodem141102
+      3. If successfull, you will see the text "Connected".
 
 2. In the opened document, start with **Section 1**.  Select one of the following based on your operating system.
    1. **WINDOWS** To open the Navigator window, click the Windows **Start** icon, locate **Anaconda3 (64-bit)**, and click **Anaconda Navigator (trust_platform)**.
-   2. **OSX** TBD
+   2. **OSX** To open the Navigator window, click on Finder, locate the application **Anaconda-Navigator** and click to start.
 
 ## Section 4: Use Case Prototyping
 
-   1. Follow Section 4.1 in the PDF.
-   2. Follow Section 4.2 in the PDF.  Jump to Section 4.2.2 since we are using MPLAB X.
+   1. Complete Section 3 in the PDF.
+   2. Follow Section 4.1 in the PDF.
+   3. Follow Section 4.2 in the PDF.  Jump to Section 4.2.2 since we are using MPLAB X.
 
       After loading the project, you will receive an error in the Project Loading Error tab.
 
@@ -63,10 +67,10 @@ In this section, you will prepare the device resources for the ECC608A.
 
       3. Click the **Resolve** Link. You will receive a pop-up box.  Click **Yes**.
          ![3](workshop-images/mplabx_config_error_3.PNG)
-      4. You will then receive a pop-up box asking you to load the installed pack.  Click **Yes**.
+      4. You might receive a pop-up box asking you to load the installed pack.  Click **Yes**.
 
          ![4](workshop-images/mplabx_config_error_4.PNG)
       
-   3. Follow the steps in section 4.2.2.
+   4. Follow the steps in section 4.2.2.
 
 Congratulations! You have completed Lab 2!
